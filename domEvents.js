@@ -1,7 +1,8 @@
-const buttons = document.querySelectorAll("#book-list li .delete");
+const list = document.querySelector("#book-list ul");
 
-buttons.forEach((button) => {
-  button.addEventListener("click", (e) => {
+// Deletes books
+list.addEventListener("click", (e) => {
+  if (e.target.classList.contains("delete")) {
     e.target.parentElement.remove();
-  });
+  }
 });
