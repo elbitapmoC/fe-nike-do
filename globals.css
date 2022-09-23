@@ -15,6 +15,18 @@ h1, h2{
   font-weight: normal;
 }
 
+.mt-8 {
+  margin-top: 2.8rem;
+}
+
+.hideAll {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 #wrapper{
   width: 90%;
   max-width: 960px;
