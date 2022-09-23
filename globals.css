@@ -8,7 +8,6 @@ body {
 }
 body{
   font-family: Tahoma;
-  color: #444;
   letter-spacing: 1px;
 }
 
@@ -29,9 +28,7 @@ h1, h2{
 }
 
 #page-banner{
-  background: #eee ;
   padding: 10px 0;
-
 }
 
 #page-banner h1, #page-banner p{
