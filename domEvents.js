@@ -35,8 +35,21 @@ form.addEventListener("submit", (e) => {
     list.append(li);
 
     // getAttribute
+    console.log("getAttribute: ", deleteButton.getAttribute("class"));
     // setAttribute
+    deleteButton.setAttribute(
+      "title",
+      "remove this from my bookshelf...immediately!"
+    );
+    console.log(
+      "setAttribute above(title): ",
+      deleteButton.getAttribute("title")
+    );
+
     // hasAttribute
+    console.log("hasAttribute: ", deleteButton.hasAttribute("title"));
     // removeAttribute
+    deleteButton.removeAttribute("title");
+    console.log("removeAttribute: title");
   }
 });
