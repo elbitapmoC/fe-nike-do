@@ -3,6 +3,7 @@ const userInput = document.querySelector("#add-book input");
 const form = document.querySelector("#add-book");
 const hideBooks = document.getElementById("hideBooks");
 const filter = document.querySelector("#search-books input");
+
 // Deletes books
 list.addEventListener("click", (e) => {
   if (e.target.classList.contains("delete")) {
